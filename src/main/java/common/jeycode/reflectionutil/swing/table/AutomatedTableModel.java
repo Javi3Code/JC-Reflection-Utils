@@ -254,6 +254,16 @@ public class AutomatedTableModel extends AbstractTableModel
             return data;
       }
 
+      /**
+       * 
+       * Method changeData : Se puede usar este método para cambiar los datos de la
+       * tabla dinámicamente, ella sola se actualiza tanto los datos, como la
+       * estructura. Por dentro se llama a {@link #buildModel(List, Class...)} para
+       * reconstruir el modelo.
+       *
+       * @param data                  : Data a cambiar en el modelo.
+       * @param annotatedObjectsClass : Nuevos .class a tener en cuenta en el cambio.
+       */
       public void changeData(List<?> data,Class<?>...annotatedObjectsClass)
       {
             tableColumn = new HashMap<>();
