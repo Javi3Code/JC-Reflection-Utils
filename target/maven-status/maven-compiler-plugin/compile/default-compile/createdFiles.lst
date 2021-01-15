@@ -1,0 +1,7 @@
+common\jeycode\reflectionutil\swing\table\exceptions\TableColorsConfigException.class
+common\jeycode\reflectionutil\annotations\AutomatedTableColumn.class
+common\jeycode\reflectionutil\swing\table\DefaultJCTable.class
+common\jeycode\reflectionutil\swing\table\AutomatedTableModel.class
+common\jeycode\reflectionutil\swing\table\constants\TableColorsManager.class
+common\jeycode\reflectionutil\swing\table\DefaultJCTableCellRenderer.class
+common\jeycode\reflectionutil\methods\JCReflectionUtils.class
