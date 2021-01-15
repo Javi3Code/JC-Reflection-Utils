@@ -225,9 +225,8 @@ public class AutomatedTableModel extends AbstractTableModel
        * de obtener el valor de ese objeto para esa celda mediante el uso de
        * reflection. Se obtiene la clase, de ahí el método con el nombre
        * correspondiente para el índice de columna, obteniéndolo del mapa
-       * {@link #annotatedMethod} y lo invoca. Se guarda el valor entre {@link #HTML}
-       * y {@link #HTML_CLOSE}. En caso de ser un valor nulo, es decir, que el método
-       * no se encuentre, entonces se devuelve {@link #NOTHING}.
+       * {@link #annotatedMethod} y lo invoca. En caso de ser un valor nulo, es decir,
+       * que el método no se encuentre, entonces se devuelve {@link #NOTHING}.
        *
        */
       @Override

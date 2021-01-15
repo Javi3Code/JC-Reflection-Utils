@@ -44,7 +44,7 @@ public class TableColorsManager
                   {
                         throw new TableColorsConfigException(TableColorsConfigException.IO_ERROR);
                   }
-                  
+
             }
             return colorsMap;
       }
