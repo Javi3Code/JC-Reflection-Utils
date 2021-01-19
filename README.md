@@ -15,5 +15,5 @@
 
 ### Ejemplo de Uso
 
-*Próximamente estará incluido un repositorio con un ejemplo de uso
+*Próximamente estará incluido un repositorio con un ejemplo de uso,
 será referenciado*
